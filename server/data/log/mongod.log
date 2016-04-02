@@ -1,0 +1,37 @@
+2016-04-02T10:02:45.808+0800 I JOURNAL  [initandlisten] journal dir=/Users/Hugo/GitHub/yaha/yaha/data/data/journal
+2016-04-02T10:02:45.808+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2016-04-02T10:02:45.831+0800 I JOURNAL  [durability] Durability thread started
+2016-04-02T10:02:45.832+0800 I CONTROL  [initandlisten] MongoDB starting : pid=854 port=11911 dbpath=/Users/Hugo/GitHub/yaha/yaha/data/data 64-bit host=localhost
+2016-04-02T10:02:45.832+0800 I JOURNAL  [journal writer] Journal writer thread started
+2016-04-02T10:02:45.832+0800 I CONTROL  [initandlisten] 
+2016-04-02T10:02:45.833+0800 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2016-04-02T10:02:45.833+0800 I CONTROL  [initandlisten] db version v3.0.4
+2016-04-02T10:02:45.833+0800 I CONTROL  [initandlisten] git version: nogitversion
+2016-04-02T10:02:45.833+0800 I CONTROL  [initandlisten] build info: Darwin yosemitevm.local 14.3.0 Darwin Kernel Version 14.3.0: Mon Mar 23 11:59:05 PDT 2015; root:xnu-2782.20.48~5/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2016-04-02T10:02:45.833+0800 I CONTROL  [initandlisten] allocator: system
+2016-04-02T10:02:45.833+0800 I CONTROL  [initandlisten] options: { config: "conf/mongoConfig.conf", net: { bindIp: "127.0.0.1", port: 11911 }, processManagement: { fork: true }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2016-04-02T10:02:45.839+0800 I INDEX    [initandlisten] allocating new ns file /Users/Hugo/GitHub/yaha/yaha/data/data/local.ns, filling with zeroes...
+2016-04-02T10:02:45.897+0800 I STORAGE  [FileAllocator] allocating new datafile /Users/Hugo/GitHub/yaha/yaha/data/data/local.0, filling with zeroes...
+2016-04-02T10:02:45.897+0800 I STORAGE  [FileAllocator] creating directory /Users/Hugo/GitHub/yaha/yaha/data/data/_tmp
+2016-04-02T10:02:46.232+0800 I STORAGE  [FileAllocator] done allocating datafile /Users/Hugo/GitHub/yaha/yaha/data/data/local.0, size: 64MB,  took 0.334 secs
+2016-04-02T10:02:46.307+0800 I NETWORK  [initandlisten] waiting for connections on port 11911
+2016-04-02T10:03:55.827+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49963 #1 (1 connection now open)
+2016-04-02T10:04:04.702+0800 I COMMAND  [conn1] terminating, shutdown command received
+2016-04-02T10:04:04.703+0800 I CONTROL  [conn1] now exiting
+2016-04-02T10:04:04.703+0800 I NETWORK  [conn1] shutdown: going to close listening sockets...
+2016-04-02T10:04:04.703+0800 I NETWORK  [conn1] closing listening socket: 6
+2016-04-02T10:04:04.704+0800 I NETWORK  [conn1] closing listening socket: 7
+2016-04-02T10:04:04.704+0800 I NETWORK  [conn1] removing socket file: /tmp/mongodb-11911.sock
+2016-04-02T10:04:04.705+0800 I NETWORK  [conn1] shutdown: going to flush diaglog...
+2016-04-02T10:04:04.705+0800 I NETWORK  [conn1] shutdown: going to close sockets...
+2016-04-02T10:04:04.705+0800 I STORAGE  [conn1] shutdown: waiting for fs preallocator...
+2016-04-02T10:04:04.705+0800 I STORAGE  [conn1] shutdown: final commit...
+2016-04-02T10:04:04.707+0800 I JOURNAL  [conn1] journalCleanup...
+2016-04-02T10:04:04.707+0800 I JOURNAL  [conn1] removeJournalFiles
+2016-04-02T10:04:04.708+0800 I JOURNAL  [conn1] Terminating durability thread ...
+2016-04-02T10:04:04.822+0800 I JOURNAL  [journal writer] Journal writer thread stopped
+2016-04-02T10:04:04.822+0800 I JOURNAL  [durability] Durability thread stopped
+2016-04-02T10:04:04.822+0800 I STORAGE  [conn1] shutdown: closing all files...
+2016-04-02T10:04:04.823+0800 I STORAGE  [conn1] closeAllFiles() finished
+2016-04-02T10:04:04.823+0800 I STORAGE  [conn1] shutdown: removing fs lock...
+2016-04-02T10:04:04.824+0800 I CONTROL  [conn1] dbexit:  rc: 0

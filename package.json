@@ -1,0 +1,23 @@
+{
+  "name": "yaha",
+  "version": "0.0.1",
+  "description": "FE Page monitor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgonlywj/yaha.git"
+  },
+  "keywords": [
+    "FE",
+    "monitor"
+  ],
+  "author": "h.g.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hgonlywj/yaha/issues"
+  },
+  "homepage": "https://github.com/hgonlywj/yaha#readme"
+}
